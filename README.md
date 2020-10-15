@@ -5,9 +5,13 @@ Home: https://github.com/tensorly/tensorly/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tensorly-feedstock/blob/master/LICENSE.txt)
 
 Summary: Tensor learning in Python
+
+Development: https://github.com/tensorly/tensorly
+
+Documentation: http://tensorly.org
 
 TensorLy is a Python library that aims at making tensor learning simple
 and accessible. It allows to easily perform tensor decomposition,
