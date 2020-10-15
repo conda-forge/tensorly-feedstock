@@ -1,6 +1,6 @@
 {% set name = "tensorly" %}
-{% set version = "0.4.5" %}
-{% set sha256 = "b8f85d1229dacba5cadfa21ce8f4b6196d70189b5cb312a37548766e5f323428" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "abb6f5c050c6c936677c3e49f27dbd9d02a204adf1b2143422431c3ec1cd8650" %}
 
 package:
   name: {{ name|lower }}
@@ -12,14 +12,14 @@ source:
 
 build:
   number: 0
-  noarch: python  
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
     - python >=3.4
     - pip
-    - setuptools  
+    - setuptools
 
   run:
     - python
@@ -35,8 +35,8 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   # https://github.com/tensorly/tensorly/pull/50
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE.txt'
-  summary: 'Tensor learning in Python'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE.txt
+  summary: Tensor learning in Python
 
   description: |
     TensorLy is a Python library that aims at making tensor learning simple 
