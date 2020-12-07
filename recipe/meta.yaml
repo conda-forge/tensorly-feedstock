@@ -1,6 +1,6 @@
 {% set name = "tensorly" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "abb6f5c050c6c936677c3e49f27dbd9d02a204adf1b2143422431c3ec1cd8650" %}
+{% set version = "0.5.1" %}
+{% set sha256 = "3883566a62fe01378797c3e6e0357f6d2be25dae815bd0c821b2a0c7210d61c4" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python >=3.4
     - pip
     - setuptools
