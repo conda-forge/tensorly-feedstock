@@ -35,7 +35,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   # https://github.com/tensorly/tensorly/pull/50
-  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE.txt
+  license_file: LICENSE.txt
   summary: Tensor learning in Python
 
   description: |
