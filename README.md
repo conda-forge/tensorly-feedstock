@@ -128,4 +128,5 @@ Feedstock Maintainers
 =====================
 
 * [@CurtLH](https://github.com/CurtLH/)
+* [@ngam](https://github.com/ngam/)
 
