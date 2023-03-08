@@ -1,6 +1,6 @@
 {% set name = "tensorly" %}
-{% set version = "0.8.0" %}
-{% set sha256 = "c9a6ce4f810496f28908a987aed772837ac18b5bf4451ec2fa16aaae23b41e18" %}
+{% set version = "0.8.1" %}
+{% set sha256 = "0361202ac80341ff0563d27e774f0eb12190b3078bd07bc34cc5970e4c18caf5" %}
 
 package:
   name: {{ name|lower }}
