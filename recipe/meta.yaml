@@ -1,6 +1,6 @@
 {% set name = "tensorly" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "0361202ac80341ff0563d27e774f0eb12190b3078bd07bc34cc5970e4c18caf5" %}
+{% set version = "0.8.2" %}
+{% set sha256 = "6d13ce6b09ee37a9fe60873669227f0d8f811497e07263306c0fc16499c450d2" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
