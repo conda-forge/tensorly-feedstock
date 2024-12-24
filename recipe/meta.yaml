@@ -11,18 +11,18 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools
 
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy
     - scipy
 
@@ -31,6 +31,7 @@ test:
     - tensorly
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
